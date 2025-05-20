@@ -19,10 +19,3 @@ touch running_programs.rb
 ```sh
 ruby running_programs.rb
 ```
-
-```
-```
-```
-```
-```
-

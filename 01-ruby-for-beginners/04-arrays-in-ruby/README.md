@@ -61,7 +61,3 @@ arr.first(3)
 arr.last(3)
 arr.reverse
 ```
-```
-```
-```
-```
