@@ -2,7 +2,12 @@
 
 ```sh
 # psql -U ianjohnson -d storefront -c 'SELECT * FROM mytable'
-psql -U ianjohnson -d storefront -f create_and_drop_tables.sql
+psql -U ianjohnson -d storefront -f create_table.sql
+psql -U ianjohnson -d storefront -f drop_table.sql
+```
+
+```sh
+psql postgres -U ianjohnson
 ```
 
 ```sql
