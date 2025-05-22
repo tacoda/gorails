@@ -48,3 +48,7 @@ Useful Tools:
 
 - TablePlus
 - lazysql
+
+Useful Documentation:
+
+[PostgreSQL v14 Documentation](https://www.postgresql.org/docs/14/index.html)
