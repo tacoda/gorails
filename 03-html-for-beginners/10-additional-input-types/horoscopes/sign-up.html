@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Horoscopes | Sign Up</title>
+  </head>
+
+  <body>
+    <header>
+      <h1>Sign Up</h1>
+    </header>
+
+    <main>
+      <form action="" method="post">
+        <div>
+          <label for="username">Username</label>
+          <input type="text" id="username" name="username" />
+        </div>
+
+        <div>
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="person@earth.com" />
+        </div>
+
+        <div>
+          <label for="password">Password</label>
+          <input type="password" id="password" name="password" />
+        </div>
+
+        <div>
+          <fieldset>
+            <legend>Select your zodiac sign</legend>
+            <input type="radio" id="aquarius" value="aquarius" name="sign" />
+            <label for="aquarius">Aquarius</label>
+            <input type="radio" id="pisces" value="pisces" name="sign" />
+            <label for="pisces">Pisces</label>
+            <input type="radio" id="aries" value="aries" name="sign" />
+            <label for="aries">Aries</label>
+          </fieldset>
+        </div>
+
+        <div>
+          <label for="dob">Date of Birth</label>
+          <input type="date" id="dob" name="dob" />
+        </div>
+
+        <div>
+        <label for="bio">Tell us about yourself</label>
+        </div>
+        <div>
+        <textarea id="bio" name="bio" rows="10" cols="40"></textarea>
+        </div>
+
+        <div>
+          <input type="checkbox" id="terms" name="terms" />
+          <label for="terms">I agree to the terms of service</label>
+        </div>
+
+        <input type="submit" name="submit" value="Sign Up" />
+      </form>
+    </main>
+  </body>
+</html>
